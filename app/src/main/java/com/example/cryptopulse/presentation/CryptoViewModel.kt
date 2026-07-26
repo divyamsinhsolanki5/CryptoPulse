@@ -62,3 +62,4 @@ class CryptoViewModel @Inject constructor(
         }
     }
 }
+
