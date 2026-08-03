@@ -119,3 +119,4 @@ fun DetailRow(label: String, value: String) {
 
 
 
+
