@@ -55,7 +55,7 @@ fun CryptoAppNav(
         CryptoDetailScreen(
             coin = selectedCoin!!,
             onBackClick = {
-                selectedCoin = null // Top AppBar na back arrow par click karva thi list screen par lai jase
+                selectedCoin = null 
             }
         )
     }
