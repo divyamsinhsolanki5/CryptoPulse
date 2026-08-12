@@ -40,7 +40,7 @@ fun CryptoAppNav(
     // System Back Button Gesture handling
     if (selectedCoin != null) {
         BackHandler {
-            selectedCoin = null // System Back press par detail screen thi list screen par lai jase
+            selectedCoin = null
         }
     }
 
