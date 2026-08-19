@@ -37,7 +37,7 @@ fun CryptoAppNav(
 ) {
     var selectedCoin by remember { mutableStateOf<CryptoCoin?>(null) }
 
-    // System Back Button Gesture handling
+    
     if (selectedCoin != null) {
         BackHandler {
             selectedCoin = null
